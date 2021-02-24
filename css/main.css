@@ -15,7 +15,7 @@ body{
   background-attachment: fixed;
   font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
   margin-top:70px;
-  max-width: 800px
+  max-width: 1000px
 }
 
 a{
@@ -58,7 +58,8 @@ ul.sns{
   right: 10px;
 }
 
-p.caution{
+.caution {
+  background:#ffffff;
   font-weight:900;
 }
 
@@ -83,4 +84,45 @@ footer {
   position:absolute;
   width: 100%;
   left: 0;
+}
+
+
+
+
+.wrapper {
+  width: 80%;
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.main, .side {
+  padding: 20px;
+}
+
+.main {
+  background: pink;
+  width: 60%;
+  margin-right: 20px;
+}
+
+.skill h1{
+  background: #f0f0f0;
+  text-align:center
+}
+
+.side {
+  background: skyblue;
+  width: 25%;
+}
+
+.side p , .side ul , .main ul {
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+.archive {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
